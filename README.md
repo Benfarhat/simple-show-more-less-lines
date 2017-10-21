@@ -9,7 +9,7 @@ You can customize:
 * The step (if you want to show or hidden X lines)
 * You can render links anywhere (Under the choosen target by default)
 
-## [<u>Demo</u>](https://benfarhat.github.io/simple-show-more-less-lines/)
+## [<u>Demo</u>](https://benfarhat.github.io/simple-show-more-less-lines/index.html)
 
 > <sub>Code and styles used in the demo are inspired from [Whoops](https://github.com/filp/whoops)<sub>
 
