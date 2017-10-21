@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple showmore lines</title>
+    <meta charset="utf-8"/>    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Markdown, Editor"> 
+    <meta name="description" content="A Simple show more lines"> 
+    <meta name="author" content="Benfarhat Elyes"> 
+    <meta name="geo.placename" content="Tunis, Tunisia"> 
+    <meta name="geo.region" content="TN-11">  
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <!-- Flatly theme from bootswatch -->
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />    
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Font Face -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Inconsolata" rel="stylesheet"> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Demo css -->
+    <link href="src/css/demo.css" rel="stylesheet">
+</head>
+
+<body style="padding-top:70px;">
+  
+    <!-- ######## -->
+    <!-- MENU NAV -->
+    <!-- ######## -->
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fa fa-arrows-v"></i><i class="fa fa-list-ol"></i> Simple show-more lines <sub style="font-size:0.6em;">WIP</sub></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><audio controls>
+          <source src="src/audio/DavidGravell_Energy.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="https://github.com/Benfarhat"><i class="fa fa-github"></i> <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- ########### -->
+    <!-- PRIMARY MSG -->
+    <!-- ########### -->
+    
+
+    <div class="container">
+      <div class="row">
+        <div class="md-12 whoops" style="background-color:#303030; padding:5px;color:#a29d9d;font-family: "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;">
+
+<!-- Start Code paste from whoops result -->   
+          <style>
+            pre.code-block {
+                white-space: pre-wrap;
+            }
+            pre.sf-dump, pre.code-block, code.code-block, .frame-args.code-block, .frame-args.code-block samp {
+                font-family: "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
+                background: #333;
+                color: #e9e4e5;
+            }
+            pre.sf-dump{
+              border: none;
+            }
+            .code-block {
+                /*max-height: 345px;*/
+                overflow: hidden;
+                background: #333;
+                color: #e9e4e5;
+                padding: 10px;
+                margin: 0;
+                border-radius: 6px;
+                box-shadow: 0 3px 0 rgba(0, 0, 0, .05), 0 10px 30px rgba(0, 0, 0, .05), inset 0 0 1px 0 rgba(255, 255, 255, .07);
+                -moz-tab-size: 4;
+                -o-tab-size: 4;
+                tab-size: 4;
+                border:1px solid #444;
+            }          
+          </style>
+          <div class="frame-code  active" id="frame-code-11">
+            <div class="frame-file">
+              <strong>/var/www/labs/tuto-laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php</strong>
+            </div>
+            <pre id="frame-code-linenums-11" class="code-block linenums:35 prettyprint prettyprinted showmorelines" style=""><ol class="linenums"><li value="35" class="L4"><span class="pln">    </span><span class="com">/**</span></li><li class="L5"><span class="com">     * Get the middleware assigned to the controller.</span></li><li class="L6"><span class="com">     *</span></li><li class="L7"><span class="com">     * @return array</span></li><li class="L8"><span class="com">     */</span></li><li class="L9"><span class="pln">    </span><span class="kwd">public</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> getMiddleware</span><span class="pun">()</span></li><li class="L0"><span class="pln">    </span><span class="pun">{</span></li><li class="L1"><span class="pln">        </span><span class="kwd">return</span><span class="pln"> $this</span><span class="pun">-&gt;</span><span class="pln">middleware</span><span class="pun">;</span></li><li class="L2"><span class="pln">    </span><span class="pun">}</span></li><li class="L3"><span class="pln"> </span></li><li class="L4"><span class="pln">    </span><span class="com">/**</span></li><li class="L5"><span class="com">     * Execute an action on the controller.</span></li><li class="L6"><span class="com">     *</span></li><li class="L7"><span class="com">     * @param  string  $method</span></li><li class="L8"><span class="com">     * @param  array   $parameters</span></li><li class="L9"><span class="com">     * @return \Symfony\Component\HttpFoundation\Response</span></li><li class="L0"><span class="com">     */</span></li><li class="L1"><span class="pln">    </span><span class="kwd">public</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> callAction</span><span class="pun">(</span><span class="pln">$method</span><span class="pun">,</span><span class="pln"> $parameters</span><span class="pun">)</span></li><li class="L2 current"><span class="pln">    </span><span class="pun">{</span></li><li class="L3 current active"><span class="pln">        </span><span class="kwd">return</span><span class="pln"> call_user_func_array</span><span class="pun">([</span><span class="pln">$this</span><span class="pun">,</span><span class="pln"> $method</span><span class="pun">],</span><span class="pln"> $parameters</span><span class="pun">);</span></li><li class="L4 current"><span class="pln">    </span><span class="pun">}</span></li><li class="L5"><span class="pln"> </span></li><li class="L6"><span class="pln">    </span><span class="com">/**</span></li><li class="L7"><span class="com">     * Handle calls to missing methods on the controller.</span></li><li class="L8"><span class="com">     *</span></li><li class="L9"><span class="com">     * @param  string  $method</span></li><li class="L0"><span class="com">     * @param  array   $parameters</span></li><li class="L1"><span class="com">     * @return mixed</span></li><li class="L2"><span class="com">     *</span></li><li class="L3"><span class="com">     * @throws \BadMethodCallException</span></li><li class="L4"><span class="com">     */</span></li><li class="L5"><span class="pln">    </span><span class="kwd">public</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> __call</span><span class="pun">(</span><span class="pln">$method</span><span class="pun">,</span><span class="pln"> $parameters</span><span class="pun">)</span></li><li class="L6"><span class="pln">    </span><span class="pun">{</span></li><li class="L7"><span class="pln">        </span><span class="kwd">throw</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">BadMethodCallException</span><span class="pun">(</span><span class="str">"Method [{$method}] does not exist."</span><span class="pun">);</span></li><li class="L8"><span class="pln">    </span><span class="pun">}</span></li><li class="L9"><span class="pun">}</span></li><li class="L0"><span class="pln"> </span></li></ol></pre>
+          <div class="frame-file">
+              Arguments
+          </div>
+          <div id="frame-code-args-11" class="code-block frame-args prettyprint">
+              <pre class="sf-dump showmorelines" id="sf-dump-1242755543" data-indent-pad="  " tabindex="0"><abbr title="App\Http\Requests\ContactRequest" class="sf-dump-note">ContactRequest</abbr> {<a class="sf-dump-ref sf-dump-toggle" title="[Ctrl+click] Expand all children">#197 <span>?</span></a><samp class="sf-dump-expanded" data-depth="1">
+  #<span class="sf-dump-protected" title="Protected property">container</span>: <abbr title="Illuminate\Foundation\Application" class="sf-dump-note">Application</abbr> {<a class="sf-dump-ref sf-dump-1242755543-ref22" href="#sf-dump-1242755543-ref22" title="2 occurrences">#2</a>}
+  #<span class="sf-dump-protected" title="Protected property">redirector</span>: <abbr title="Illuminate\Routing\Redirector" class="sf-dump-note">Redirector</abbr> {<a class="sf-dump-ref">#195</a>}
+  #<span class="sf-dump-protected" title="Protected property">redirect</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">redirectRoute</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">redirectAction</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">errorBag</span>: "<span class="sf-dump-str" title="7 characters">default</span>"
+  #<span class="sf-dump-protected" title="Protected property">json</span>: <abbr title="Symfony\Component\HttpFoundation\ParameterBag" class="sf-dump-note">ParameterBag</abbr> {<a class="sf-dump-ref">#204</a>}
+  #<span class="sf-dump-protected" title="Protected property">convertedFiles</span>: []
+  #<span class="sf-dump-protected" title="Protected property">userResolver</span>: <span class="sf-dump-note">Closure</span> {<a class="sf-dump-ref sf-dump-toggle" title="[Ctrl+click] Expand all children">#143 <span>?</span></a><samp class="sf-dump-compact" data-depth="2">
+    <span class="sf-dump-meta">class</span>: "<span class="sf-dump-str" title="Illuminate\Auth\AuthServiceProvider
+35 characters"><span class="sf-dump-ellipsis sf-dump-ellipsis-class">Illuminate\Auth</span><span class="sf-dump-ellipsis">\</span>AuthServiceProvider</span>"
+    <span class="sf-dump-meta">this</span>: <abbr title="Illuminate\Auth\AuthServiceProvider" class="sf-dump-note">AuthServiceProvider</abbr> {<a class="sf-dump-ref">#38</a> Ö}
+    <span class="sf-dump-meta">parameters</span>: {<a class="sf-dump-ref sf-dump-toggle" title="[Ctrl+click] Expand all children"><span>?</span></a><samp class="sf-dump-compact" data-depth="3">
+      <span class="sf-dump-meta">$guard</span>: {<a class="sf-dump-ref sf-dump-toggle" title="[Ctrl+click] Expand all children"><span>?</span></a><samp class="sf-dump-compact" data-depth="4">
+        <span class="sf-dump-meta">default</span>: <span class="sf-dump-const">null</span>
+      </samp>}
+    </samp>}
+    <span class="sf-dump-meta">use</span>: {<a class="sf-dump-ref sf-dump-toggle" title="[Ctrl+click] Expand all children"><span>?</span></a><samp class="sf-dump-compact" data-depth="3">
+      <span class="sf-dump-meta">$app</span>: <abbr title="Illuminate\Foundation\Application" class="sf-dump-note">Application</abbr> {<a class="sf-dump-ref sf-dump-1242755543-ref22" href="#sf-dump-1242755543-ref22" title="2 occurrences">#2</a>}
+    </samp>}
+  </samp>}
+  #<span class="sf-dump-protected" title="Protected property">routeResolver</span>: <span class="sf-dump-note">Closure</span> {<a class="sf-dump-ref sf-dump-toggle" title="[Ctrl+click] Expand all children">#145 <span>?</span></a><samp class="sf-dump-compact" data-depth="2">
+    <span class="sf-dump-meta">class</span>: "<span class="sf-dump-str" title="Illuminate\Routing\Router
+25 characters"><span class="sf-dump-ellipsis sf-dump-ellipsis-class">Illuminate\Routing</span><span class="sf-dump-ellipsis">\</span>Router</span>"
+    <span class="sf-dump-meta">this</span>: <abbr title="Illuminate\Routing\Router" class="sf-dump-note">Router</abbr> {<a class="sf-dump-ref">#25</a> Ö}
+    <span class="sf-dump-meta">use</span>: {<a class="sf-dump-ref sf-dump-toggle" title="[Ctrl+click] Expand all children"><span>?</span></a><samp class="sf-dump-compact" data-depth="3">
+      <span class="sf-dump-meta">$route</span>: <abbr title="Illuminate\Routing\Route" class="sf-dump-note">Route</abbr> {<a class="sf-dump-ref">#115</a> Ö}
+    </samp>}
+  </samp>}
+  +<span class="sf-dump-public" title="Public property">attributes</span>: <abbr title="Symfony\Component\HttpFoundation\ParameterBag" class="sf-dump-note">ParameterBag</abbr> {<a class="sf-dump-ref">#199</a>}
+  +<span class="sf-dump-public" title="Public property">request</span>: <abbr title="Symfony\Component\HttpFoundation\ParameterBag" class="sf-dump-note">ParameterBag</abbr> {<a class="sf-dump-ref">#196</a>}
+  +<span class="sf-dump-public" title="Public property">query</span>: <abbr title="Symfony\Component\HttpFoundation\ParameterBag" class="sf-dump-note" style="cursor: pointer;">ParameterBag</abbr> {<a class="sf-dump-ref">#198</a>}
+  +<span class="sf-dump-public" title="Public property">server</span>: <abbr title="Symfony\Component\HttpFoundation\ServerBag" class="sf-dump-note" style="cursor: pointer;">ServerBag</abbr> {<a class="sf-dump-ref">#202</a>}
+  +<span class="sf-dump-public" title="Public property">files</span>: <abbr title="Symfony\Component\HttpFoundation\FileBag" class="sf-dump-note">FileBag</abbr> {<a class="sf-dump-ref">#201</a>}
+  +<span class="sf-dump-public" title="Public property">cookies</span>: <abbr title="Symfony\Component\HttpFoundation\ParameterBag" class="sf-dump-note">ParameterBag</abbr> {<a class="sf-dump-ref">#200</a>}
+  +<span class="sf-dump-public" title="Public property">headers</span>: <abbr title="Symfony\Component\HttpFoundation\HeaderBag" class="sf-dump-note">HeaderBag</abbr> {<a class="sf-dump-ref">#203</a>}
+  #<span class="sf-dump-protected" title="Protected property">content</span>: "<span class="sf-dump-str" title="109 characters">_token=BAVkEydH1gmJbQvpmagspjFlGIELmgYvumemH3B0&amp;nom=subject&amp;email=test%40example.com&amp;message=a+very+long+text</span>"
+  #<span class="sf-dump-protected" title="Protected property">languages</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">charsets</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">encodings</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">acceptableContentTypes</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">pathInfo</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">requestUri</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">baseUrl</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">basePath</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">method</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">format</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">session</span>: <abbr title="Illuminate\Session\Store" class="sf-dump-note" style="cursor: pointer;">Store</abbr> {<a class="sf-dump-ref">#172</a>}
+  #<span class="sf-dump-protected" title="Protected property">locale</span>: <span class="sf-dump-const">null</span>
+  #<span class="sf-dump-protected" title="Protected property">defaultLocale</span>: "<span class="sf-dump-str" title="2 characters">en</span>"
+  -<span class="sf-dump-private" title="Private property defined in class:
+`Symfony\Component\HttpFoundation\Request`">isHostValid</span>: <span class="sf-dump-const">true</span>
+  -<span class="sf-dump-private" title="Private property defined in class:
+`Symfony\Component\HttpFoundation\Request`">isClientIpsValid</span>: <span class="sf-dump-const">true</span>
+  -<span class="sf-dump-private" title="Private property defined in class:
+`Symfony\Component\HttpFoundation\Request`">isForwardedValid</span>: <span class="sf-dump-const">true</span>
+  <span class="sf-dump-meta">pathInfo</span>: "<span class="sf-dump-str" title="8 characters">/contact</span>"
+  <span class="sf-dump-meta">requestUri</span>: "<span class="sf-dump-str" title="28 characters">/tuto-laravel/public/contact</span>"
+  <span class="sf-dump-meta">baseUrl</span>: "<span class="sf-dump-str" title="20 characters">/tuto-laravel/public</span>"
+  <span class="sf-dump-meta">basePath</span>: "<span class="sf-dump-str" title="20 characters">/tuto-laravel/public</span>"
+  <span class="sf-dump-meta">method</span>: "<span class="sf-dump-str" title="4 characters">POST</span>"
+  <span class="sf-dump-meta">format</span>: "<span class="sf-dump-str" title="4 characters">html</span>"
+</samp>}
+</pre>        </div>
+        
+                <div class="frame-comments empty">
+                No comments for this stack frame.
+                  </div>
+
+        </div>
+
+<!-- End paste from whoops result -->
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- ###### -->
+    <!-- FOOTER -->
+    <!-- ###### -->
+    
+    <div class="container">
+      <footer>
+        <p>Please <span class="text-danger">‚ù§‚ù§‚ù§</span> No matter how small your contribution is, never stop sharing your knowledge with the world!</p>
+      </footer>
+    </div> <!-- /container -->
+    
+    
+    
+
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>window.jQuery || document.write('<script src="src/js/jquery/1.12.4/jquery.min.js"><\/script>');</script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Simple Show More Lines -->
+  <script src="src/js/jquery.showmorelines.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function () {
+      'use strict';
+      
+      $('.showmorelines').showmorelines({
+      buttonTag: "a",
+      buttonClass: "sml", // for "Show More Link" or "Super Mario Land", as you like ...
+      ShowMoreButton: true, // should we display "show more" button / links?
+      ShowLessButton: true, // should we display "show less" button / links?
+      buttonLessText: 'show less lines <i class="fa fa-arrow-up"></i>',
+      buttonMoreText: 'Show more lines <i class="fa fa-arrow-down"></i>',
+      buttonLessText: 'show less lines <i class="fa fa-arrow-up"></i>',
+      tooltipMoreText: "Show more lines",
+      tooltipLessText: "show less lines",
+      toolbarContainer: null, // if you want to display links somewhere else than under target
+      toolbarClass: "toolbar", // wrapping class
+      start: "5", // number of lines 
+      limit: "15", // number of lines
+      step: "5", // number of lines
+    });
+ 
+    });
+
+
+  </script> 
+</body>
+</html>
